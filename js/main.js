@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('I love you').split('');
+        const titles = ('Happy Valentine').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Happy mensive buat yang kedua kali, sayang. I have a lil reminder for you, jae. I love you soo much, so that means im not just here for the pretty parts and happy days, im here for the rough times and bad days too. I’ll be always here, no matter what.";
+            subtitle.innerText = "i don't know how to thank u, but i'm so glad u came into my life, cuz u made it so much better";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
